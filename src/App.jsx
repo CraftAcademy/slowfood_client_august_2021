@@ -9,16 +9,18 @@ import Signup from "./components/Signup";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Header />
-      <Switch>
-        <Route exact path="/" component={HomePage}></Route>
-        <Route exact path="/menu" component={MenuPage}></Route>
-        <Route exact path="/about" component={About}></Route>
-        <Route exact path="/signup" component={Signup}></Route>
-      </Switch>
-      <Footer />
-    </BrowserRouter>
+    <body>
+      <BrowserRouter>
+        <Header />
+        <Switch>
+          <Route exact path="/" component={HomePage}></Route>
+          <Route exact path="/menu" component={MenuPage}></Route>
+          <Route exact path="/about" component={About}></Route>
+          <Route exact path="/signup" component={Signup}></Route>
+        </Switch>
+        <Footer />
+      </BrowserRouter>
+    </body>
   );
 };
 

@@ -1,12 +1,18 @@
 import React from "react";
-import { Container, Header } from "semantic-ui-react";
+import { Container } from "semantic-ui-react";
 
 const HomePage = () => {
   return (
     <Container>
-      <Header size="huge" color="red" data-cy="resturant-name">
+      <h2>
+        Welcome to
+      </h2>
+      <h1 size="huge" color="red" data-cy="resturant-name" textAlign="centered">
         Too Gross For Comfort?
-      </Header>
+      </h1>
+      <h2>
+        A unique experience you can try the world's weirdest cuisines.
+      </h2>
     </Container>
   );
 };
