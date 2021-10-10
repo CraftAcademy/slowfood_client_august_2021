@@ -11,7 +11,7 @@ const HomePage = () => {
         Too Gross For Comfort?
       </h1>
       <h2>
-        A unique experience you can try the world's weirdest cuisines.
+        A unique blend of the world's weirdest cuisines.
       </h2>
     </Container>
   );
